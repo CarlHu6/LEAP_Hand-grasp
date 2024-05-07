@@ -3,6 +3,7 @@ This is the grasp funciton that using the LEAP hand
 Dynamixel preparing:
 Before using the LEAP hand, it is necessary to download Dynamixel Wizard 2 for changing ID and frequency of each motor, and request the dynamixel port access before use. 
 The installation of Dynamixel Wizard has link: https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/
+
 Tutorial about changing ID and frequency of each motor: https://emanual.robotis.com/docs/en/software/rplus1/dynamixel_wizard/
 
 ROS setting:
