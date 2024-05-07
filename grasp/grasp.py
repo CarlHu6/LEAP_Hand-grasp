@@ -149,32 +149,6 @@ def main(**kwargs):
             leap_hand.disconnect()
             
             break
-        
-    # for i in range(50):
-    #     desired_pos1 = np.array([0,0.5,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.5,0.5,0,0.5,0.5])
-    #     desired_pos = np.array([0,1,1,1,0,0,0,0,0,1,1,1,1,0.5,1,1])
-    #     leap_hand.set_allegro(desired_pos1)
-    #     print("Position: " + str(leap_hand.read_pos()))
-    # while True:
-    #     x = np.zeros(16)
-    #     print(type(x))
-    #     desired_pos1 = np.array([0,0.5,0.5,0.5,0,0.5,0.5,0.5,0,0.5,0.5,0.5,0.5,0,0.5,0.5])
-    #     desired_pos = np.array([0,1,1,1,0,0,0,0,0,1,1,1,1,0.5,1,1])
-    #     leap_hand.set_allegro(desired_pos1)
-    #     print("Position: " + str(leap_hand.read_pos()))
-    #     time.sleep(0.03)
-    #     count += 1
-    #     case = 1
-    #     print(count)
-    #     if case == 1 and count > 100:
-    #         case = 2
-    #         desired_pos2 = np.array([0,1,1,1,0,0,0,0,0,1,1,1,1,0,1,1])
-    #         leap_hand.set_allegro(desired_pos2)
-    #         count += 1
-    #     if count >200 and case ==2:
-    #         print("disconnect the LEAP hand")
-    #         leap_hand.disconnect()
-    #         break
 
 if __name__ == "__main__":
     main()
