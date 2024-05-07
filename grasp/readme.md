@@ -12,9 +12,10 @@ The setting of ROS 1 could be easily by folloing the ROS setting part in the LEA
 python setting:
 python setting with different system could easily follow the python folder in the LEAP_Hand_API: https://github.com/CarlHu6/LEAP_Hand-grasp/tree/main/LEAP_hand_API/python
 
-
 For grasp:
 The demo code only asking to close the LEAP hand and not controlling the Franka. The demo code for LEAP hand grasp could be run by: python grasp.py 
+
 The controlling with Franka and LEAP hand grasp could be run by: Franka_control.py
+
 Franka pose information could be saved into npz file in save_load.py and it could alse read the file for the Franka pose
 
